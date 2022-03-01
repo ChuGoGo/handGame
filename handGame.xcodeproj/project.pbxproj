@@ -13,6 +13,10 @@
 		9E381C1E27C756EE0019CEEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E381C1C27C756EE0019CEEB /* Main.storyboard */; };
 		9E381C2027C756EE0019CEEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E381C1F27C756EE0019CEEB /* Assets.xcassets */; };
 		9E381C2327C756EE0019CEEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E381C2127C756EE0019CEEB /* LaunchScreen.storyboard */; };
+		9E381C2B27C772A70019CEEB /* sign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E381C2A27C772A70019CEEB /* sign.swift */; };
+		9E381C2D27C77A700019CEEB /* GameResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E381C2C27C77A700019CEEB /* GameResult.swift */; };
+		9E84A23627C8A3BA00B587F1 /* blackWhiteGuess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E84A23527C8A3BA00B587F1 /* blackWhiteGuess.swift */; };
+		9E84A23827C8AF7B00B587F1 /* BlackWhiteGameResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E84A23727C8AF7B00B587F1 /* BlackWhiteGameResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		9E381C1F27C756EE0019CEEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E381C2227C756EE0019CEEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E381C2427C756EE0019CEEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E381C2A27C772A70019CEEB /* sign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sign.swift; sourceTree = "<group>"; };
+		9E381C2C27C77A700019CEEB /* GameResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameResult.swift; sourceTree = "<group>"; };
+		9E84A23527C8A3BA00B587F1 /* blackWhiteGuess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blackWhiteGuess.swift; sourceTree = "<group>"; };
+		9E84A23727C8AF7B00B587F1 /* BlackWhiteGameResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackWhiteGameResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +65,13 @@
 			isa = PBXGroup;
 			children = (
 				9E381C1627C756EE0019CEEB /* AppDelegate.swift */,
+				9E84A23527C8A3BA00B587F1 /* blackWhiteGuess.swift */,
 				9E381C1827C756EE0019CEEB /* SceneDelegate.swift */,
 				9E381C1A27C756EE0019CEEB /* ViewController.swift */,
 				9E381C1C27C756EE0019CEEB /* Main.storyboard */,
+				9E381C2A27C772A70019CEEB /* sign.swift */,
+				9E381C2C27C77A700019CEEB /* GameResult.swift */,
+				9E84A23727C8AF7B00B587F1 /* BlackWhiteGameResult.swift */,
 				9E381C1F27C756EE0019CEEB /* Assets.xcassets */,
 				9E381C2127C756EE0019CEEB /* LaunchScreen.storyboard */,
 				9E381C2427C756EE0019CEEB /* Info.plist */,
@@ -140,7 +152,11 @@
 			files = (
 				9E381C1B27C756EE0019CEEB /* ViewController.swift in Sources */,
 				9E381C1727C756EE0019CEEB /* AppDelegate.swift in Sources */,
+				9E381C2B27C772A70019CEEB /* sign.swift in Sources */,
+				9E84A23827C8AF7B00B587F1 /* BlackWhiteGameResult.swift in Sources */,
+				9E84A23627C8A3BA00B587F1 /* blackWhiteGuess.swift in Sources */,
 				9E381C1927C756EE0019CEEB /* SceneDelegate.swift in Sources */,
+				9E381C2D27C77A700019CEEB /* GameResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
